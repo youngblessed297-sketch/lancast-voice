@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center_horizontal" android:padding="28dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LANCAST Voice" android:textSize="30sp" android:textStyle="bold" android:layout_marginTop="40dp"/>
+<TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ready — LAN only" android:textSize="18sp" android:layout_marginTop="24dp"/>
+<Button android:id="@+id/talkButton" android:layout_width="220dp" android:layout_height="80dp" android:text="HOLD TO TALK" android:textSize="18sp" android:layout_marginTop="70dp"/>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="239.1.1.1 : 5000\nOpus • Mono • 48 kHz • 24 kbps • 20 ms" android:gravity="center" android:textSize="14sp" android:layout_marginTop="35dp"/>
+</LinearLayout>
